@@ -30,7 +30,12 @@ export default defineNuxtConfig({
           name: "description",
           content:
             "Ivan Seleznov's personal portfolio website showcasing projects and skills.",
+          
         },
+        {
+          name: "google-site-verification",
+          content:"Dw-GE7Ya5VyqvIZQW713tnuEU8MaaC7hN8Pyq1EU7Ow",
+        }
       ],
     },
   },
