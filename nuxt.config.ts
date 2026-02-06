@@ -6,7 +6,10 @@ export default defineNuxtConfig({
     preset: "github_pages",
   },
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss"],
+  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/sitemap"],
+  site: {
+    url: "https://ivan-seleznov.github.io",
+  },
   app: {
     buildAssetsDir: "assets",
     baseURL: "/",
