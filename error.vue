@@ -17,7 +17,7 @@
       <h1
         class="text-[12rem] md:text-[18rem] font-black leading-none tracking-tighter text-white/5 relative"
       >
-        {{ error?.status }}
+        {{ error?.statusCode }}
         <span
           class="absolute inset-0 flex items-center justify-center text-blue-500 text-6xl md:text-8xl blur-sm animate-pulse"
         >
